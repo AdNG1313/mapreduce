@@ -11,7 +11,7 @@ for line in sys.stdin:
         # Something has gone wrong. Skip this line.
         continue
 
-    dolarPago = data_mapped[0]
+    tipoPago, dolarPago = data_mapped
 
     numeroVendas += 1
     totalVendas += float(dolarPago)
